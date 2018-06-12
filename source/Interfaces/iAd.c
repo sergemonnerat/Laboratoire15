@@ -19,6 +19,7 @@ Description dans le fichier iAd.h
 //------------------------------------------------------------
 void iAd_Config(void)
 {
+
 	// ADC clock enable
 	// System Clock Gating Control Register 6 (SIM_SCGC6)
 	SIM->SCGC6|=SIM_SCGC6_ADC0_MASK;
